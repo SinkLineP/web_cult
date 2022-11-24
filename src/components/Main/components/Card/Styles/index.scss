@@ -1,0 +1,99 @@
+
+
+.card {
+  width: 280px;
+  height: 328px;
+  border: 1px solid #E1E1E1;
+  position: relative;
+
+  & .card-image.sold {
+    opacity: 0.3;
+  }
+
+  & .card-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+    & .content-title {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+    }
+
+    & .content-title.sold {
+      color: #9B9797;
+    }
+
+    & .content-author.sold {
+      color: #9B9797;
+    }
+
+    & .content-author {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+    }
+
+    & .content-price-group.sold > p {
+      padding-bottom: 20px;
+      color: #9B9797;
+    }
+
+    & .content-price-group {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      bottom: 24px;
+      width: 232px;
+
+      & .group-sale-price {
+        padding: 0;
+        margin: 0;
+
+        font-family: 'Merriweather', serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 150%;
+
+        display: flex;
+        align-items: center;
+        text-decoration-line: line-through;
+
+        color: #A0A0A0;
+      }
+
+      & .group-sale-price.hide {
+        visibility: hidden;
+      }
+      & .group-sale-price.show {
+        visibility: visible;
+      }
+
+      & .group-price {
+        padding: 0;
+        margin: 0;
+
+        font-family: 'Merriweather', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+
+        display: flex;
+        align-items: center;
+
+        color: #343030;
+      }
+    }
+  }
+}

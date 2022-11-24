@@ -1,0 +1,23 @@
+.main {
+  min-height: calc(78.2vh - 96px);
+
+  & .main-title {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+
+    display: flex;
+    align-items: center;
+
+    color: #343030;
+    margin-top: 45px;
+    margin-bottom: 39px;
+  }
+
+  & .card-content {
+    display: flex;
+    justify-content: space-between;
+  }
+}

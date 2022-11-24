@@ -1,0 +1,30 @@
+.default-styles {
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+
+  background: #382E2B;
+
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+
+  color: #F4F6F9;
+}
+
+.default-styles.default-button {
+  height: 48px;
+  width: 118px;
+}
+
+.default-styles:hover {
+  background: #776763;
+}
+
+.default-styles:disabled {
+  background: #C1B4B1;
+  cursor: default;
+}
